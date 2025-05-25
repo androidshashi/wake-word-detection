@@ -1,7 +1,7 @@
 
 # 🗣️ Offline Wake Word Detection (Custom Keyword)
 
-A lightweight, privacy-first **offline wake word detection system** built with [Picovoice Porcupine](https://github.com/Picovoice/porcupine). It continuously listens for a custom keyword like “Jarvis”, “Echo”, “Hey Computer”, etc., and triggers an event when detected.
+A lightweight, privacy-first **offline wake word detection system** built with [Picovoice Porcupine](https://github.com/Picovoice/porcupine). It continuously listens for a custom keyword like “Jarvis”, “Echo”, “Hey Computer”, or even your name like "Hey Radha"., and triggers an event when detected.
 
 > 🎯 Ideal for offline AI assistants, smart home triggers, or embedded devices.
 
@@ -37,7 +37,7 @@ wake-word-detection/
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/wake-word-detection.git
+git clone https://github.com/androidshashi/wake-word-detection.git
 cd wake-word-detection
 ```
 
@@ -72,7 +72,7 @@ pip install -r requirements.txt
 Create a `.env` file in the root folder:
 
 ```
-ACCESS_KEY=your_picovoice_access_key_here
+PORCUPINE_ACCESS_KEY=your_picovoice_access_key_here
 ```
 
 > 🔐 The `.env` file is excluded from Git commits using `.gitignore`.
@@ -118,10 +118,6 @@ Expected output:
 Pull requests are welcome! Feel free to fork and submit bug fixes, new features, or integrations (like speech recognition or voice assistant commands).
 
 ---
-
-## 📄 License
-
-This project is licensed under the MIT License.
 
 ---
 
